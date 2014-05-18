@@ -1,0 +1,46 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: bisque;
+    padding: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman' , serif;
+}
+
+div#site {
+    background-color: white;
+    width: 990px;
+    margin: auto;
+    padding: 5px;
+}
+
+div#cabecalho {
+    background-color: coral;
+    height: 120px;
+}
+
+div#conteudo {
+    background-color: WindowFrame;
+    height: 500px;
+    width: 750px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+div#sidebar {
+    background-color: WindowFrame;
+    height: 500px;
+    margin-top: 5px;
+    width: 235px;
+    float: right;
+}
+
+div#rodape {
+    background-color: WindowFrame;
+    height: 80px;
+    clear: both;
+}
