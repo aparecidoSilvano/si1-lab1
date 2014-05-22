@@ -2,55 +2,76 @@
 
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>Cadastro</title>
-    <link rel="stylesheet" href="css/bootstrap.css" />
+<meta charset="utf-8" />
+<title>Cadastro</title>
+<link rel="stylesheet" href="css/bootstrap.css" />
 </head>
 <body>
+	<div class="container">
+		<div class="navbar">
+			<div class="navbar-inner">
+				<a class="brand" href="Index.html">Index</a>
+				<ul class="nav">
+					<li class="active"><a href="#">Cadastro</a></li>
+					<li><a href="#">Biblíografia</a>
+					<li><a href="#">Sobre</a>
+				</ul>
+			</div>
+		</div>
+	</div>
 
-    <div class="jumbotron">
-        <div class="container">
-            <h1>SISTEMAS DA INFORMAÇÃO I - UFCG</h1>
-        </div>
 
-    </div>
-    <div class="container">
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <br />
-                <h2 class="panel-title">Informe os dados solitados abaixo</h2>
-            </div>
-            <div class="panel-body">
-                <form id="formCadastro" action="obrigado.html" method="put">
-                    <p>
-                        Primeiro nome:
-                    <input id="primeiroNome" type="text" name="primeiro-nome" placeholder="Fulano" autofocus="autofocus" />
-                    </p>
-                    <p>
-                        Sobrenome:
-                    <input id="sobrenome" type="text" name="ultimo-nome" placeholder="Silva" />
-                    </p>
+		<div class="page-header">
+			<h1>SISTEMAS DA INFORMAÇÃO I - UFCG</h1>
+		</div>
 
-                    <p>
-                        Matricula: 
-                    <input id="matricula" type="text" name="matricula" placeholder="000000000" />
-                    </p>
 
-                    <p>
-                        Telefone:
-                    <input id="telefone" type="text" name="telefone" placeholder="(00) 0000-0000" autofocus="autofocus" />
-                    </p>
+	</div>
+	<div class="container-fluid">
+		<div class="panel panel-success">
+			<div class="panel-heading">
+				<form class="form-horizontal" action="obrigado.html">
+					<div class="control-group">
+						<label class="control-label" for="inputFirstName">Primeiro
+							nome</label>
+						<div class="controls">
+							<input type="text" id="inputFirstname" placeholder="Fulano"
+								autofocus="autofocus">
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="inputLastName">Sobrenome</label>
+						<div class="controls">
+							<input type="text" id="inputLastName" placeholder="Deltrano">
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="inputRegistration">Matrícula</label>
+						<div class="controls">
+							<input type="text" id="inputRegistration" placeholder="000000000">
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="inputPhone">Telefone</label>
+						<div class="controls">
+							<input type="text" id="inputPhone" placeholder="(00) 00000000">
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="inputEmail">Email</label>
+						<div class="controls">
+							<input type="email" id="inputEmail"
+								placeholder="exemplo@exemplo.com">
+						</div>
+					</div>
+					<div class="form-actions">
+						<button type="submit" class="btn btn-large btn-block btn-link">Enviar</button>
+					</div>
+				</form>
 
-                    <p>
-                        Email:
-                    <input id="email" type="text" name="email" placeholder="exemplo@exemplo.com" autofocus="autofocus" />
-                    </p>
-                    <input id="submeter" type="submit" value="Enviar" />
-                </form>
+			</div>
+		</div>
 
-            </div>
-        </div>
-
-    </div>
+	</div>
 </body>
 </html>
