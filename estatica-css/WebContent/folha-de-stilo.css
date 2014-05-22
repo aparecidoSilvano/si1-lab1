@@ -1,44 +1,117 @@
-﻿* {
-    margin: 0;
-    padding: 0;
-    border: 0;
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
 body {
-    background-color: white;
-    padding: 2%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman' , serif;
+	background-image:url('img/background.jpg');
+	padding: 2%;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
-#h1-cabecalho{
-	text-align:center;
-	color: green;
-	border: none;
+#h1cabecalho {
+	color: midnightblue;
+    text-align:right;
 }
 
-h2{
-	color:green;
+h1 {
+    color: midnightblue;
+    text-align:center;
+}
+h2 {
+    margin-left:35px;
+}
+
+#logo-computacao{
+	text-align: right;
+    float:right;
+    height: 111px;
 }
 
 div#site {
-    background-color: silver;
-    width: 990px;
-    height:1000px;
-    margin: auto;
-    padding: 5px;
+	background:silver;
+	width: 1100px;
+	margin: auto;
+	padding: 5px;
 }
 
 div#cabecalho {
-    background-color: white;
-    height: 120px;
+	background-color:white;
+	height: 120px;
+	text-align: center;
 }
 
 div#conteudo {
-    background-color: white;
-    height: 995px;
-    width: 990px;
-    margin-top: 5px;
+	background-color: white;
+	height: 400px;
+	width: 805px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+p {
+    margin-left:5px;
+}
+
+#formCadastro {
+    text-align:center;
+}
+
+#primeiroNome {
+    margin-left:20px;
+    border:outset;
+}
+#sobrenome {
+    margin-left:44px;
+    border:outset;
+}
+#matricula {
+    margin-left:59px;
+    border:outset;
+}
+#telefone {
+    margin-left:60px;
+    border:outset;
+}
+#email {
+    margin-left:85px;
+    border:outset;
+}
+#submeter {
+    border-color: inherit;
+    width:200px;
+    text-align:center;
+}
+
+div#sidebar {
+	background-color: white;
+	height: 400px;
+	margin-top: 5px;
     margin-bottom: 5px;
-    float: left;
+	width: 290px;
+	float: right;
+
+    color: midnightblue;
+}
+
+input {
+    width: 550px;
+}
+
+#listaMenu {
+    margin-left:25px;
+}
+
+#menu {
+    margin-left:10px;    
+}
+
+
+
+div#rodape {
+	background-color: white;
+	height: 40px;
+	clear: both;
 }

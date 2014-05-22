@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+</head>
+<body>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>SISTEMAS DA INFORMAÇÃO I - UFCG</h1>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <br />
+                <h2 class="panel-title">Informe os dados solitados abaixo</h2>
+            </div>
+            <div class="panel-body">
+                <form id="formCadastro" action="obrigado.html" method="put">
+                    <p>
+                        Primeiro nome:
+                    <input id="primeiroNome" type="text" name="primeiro-nome" placeholder="Fulano" autofocus="autofocus" />
+                    </p>
+                    <p>
+                        Sobrenome:
+                    <input id="sobrenome" type="text" name="ultimo-nome" placeholder="Silva" />
+                    </p>
+
+                    <p>
+                        Matricula: 
+                    <input id="matricula" type="text" name="matricula" placeholder="000000000" />
+                    </p>
+
+                    <p>
+                        Telefone:
+                    <input id="telefone" type="text" name="telefone" placeholder="(00) 0000-0000" autofocus="autofocus" />
+                    </p>
+
+                    <p>
+                        Email:
+                    <input id="email" type="text" name="email" placeholder="exemplo@exemplo.com" autofocus="autofocus" />
+                    </p>
+                    <input id="submeter" type="submit" value="Enviar" />
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

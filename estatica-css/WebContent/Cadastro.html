@@ -1,10 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+    <meta charset="utf-8">
+    <title>Sistemas de informação 1</title>
+    <link rel="stylesheet" href="folha-de-stilo.css" />
 </head>
 <body>
+    <div id="site">
+        <div id="cabecalho">
+            <figure id="logo-computacao">
+                <img alt="Computa��o ufcg" src="img/logo computacao.jpg" style="height: 113px">
+            </figure>
+            <h1 id="h1cabecalho">&nbsp;</h1>
+            <h1>SISTEMAS DE INFORMAÇÃO I - UFCG </h1>
+        </div>
+        <div id="conteudo">
+            <br />
+            <h2>Informe os dados solitados abaixo</h2>
+            <br />
+            <form id="formCadastro" action="obrigado.html" method="get">
+                <p>
+                    Primeiro nome:
+                    <input id="primeiroNome" type="text" name="primeiro-nome" placeholder="Fulano" />
+                </p>
+                <p>
+                    Sobrenome:
+                    <input id="sobrenome" type="text" name="ultimo-nome" placeholder="Silva" />
+                </p>
+
+                <p>
+                    Matricula: 
+                    <input id="matricula" type="text" name="matricula" placeholder="000000000" />
+                </p>
+
+                <p>
+                    Telefone:&nbsp;
+                    <input id="telefone" type="text" name="telefone" placeholder="(00) 0000-0000" />
+                </p>
+
+                <p>
+                    Email:
+                    <input id="email" type="text" name="email" placeholder="exemplo@exemplo.com" />
+                </p>
+                <input id="submeter" type="submit" value="Enviar">
+            </form>
+        </div>
+        <div id="sidebar">
+            <h3 id="menu">Menu</h3>
+            <br />
+            <ul id="listaMenu">
+                <li><a href="https://sites.google.com/a/computacao.ufcg.edu.br/si1/bibliografia-e-apontadores" target="_blank">bibliografia</a></li>
+                <li><a href="https://sites.google.com/a/computacao.ufcg.edu.br/si1/plano-e-notas-de-aula" target="_blank">plano e notas de aula</a></li>
+            </ul>
+        </div>
+        <div id="rodape">
+            <h5 style="width: 0px; height: 0px;">coprights</h5>
+        </div>
+    </div>
+
 
 </body>
 </html>
