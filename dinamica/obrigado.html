@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Obrigado!</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="jquery/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="header">
+			<ul class="nav nav-pills pull-right">
+				<li><a href="Index.html">Inicio</a></li>
+				<li><a
+					href="https://sites.google.com/a/computacao.ufcg.edu.br/si1/bibliografia-e-apontadores"
+					target="_blank">Bibliografia</a></li>
+				<li><a href="#">Sobre</a></li>
+			</ul>
+			<h3 class="text-muted">SISTEMAS DA INFORMAÇÃO I - UFCG</h3>
+		</div>
+
+		<div class="jumbotron">
+			<h1>
+				<strong>Ok! Aluno cadastrado com sucesso!</strong>
+			</h1>
+			<p class="lead">Você recebera um email confirmando sua inscrição.
+				Obrigado!</p>
+		</div>
+
+		<div class="row marketing">
+			<div class="col-lg-12">
+
+<!-- 				<input type="text" class="form-control" size="100" maxlength="30" -->
+<!-- 					placeholder="conteudo" onkeypress="enter(event)" id="disciplina"> -->
+				 <fieldset>
+                    <legend><i>Informe quais conteudos você já aprendeu e quais gostaria de aprender na disciplina de <strong>Sistemas da informação I</strong></i></legend>
+                    <label>Nome do conteudo:</label>
+                    <input type="text" class="form-control" size="100" maxlength="30"
+					placeholder="conteudo" onkeypress="enter(event)" id="conteudo">
+                   
+                </fieldset>
+			</div>
+			<div>
+				<div class="col-sm-6">
+					<table class="table table-hover table-condensed"
+						id="tabela-aprender">
+						<thead>
+							<tr>
+								<th class="text-center" width="450">Assuntos a Aprender</th>
+								<th class="text-center" width="25">Excluir</th>
+								<th class="text-center" width="25">Adicionar</th>
+							</tr>
+						</thead>
+					</table>
+				</div>
+			</div>
+			<div class="form-group col-sm-6">
+				<table class="table table-hover table-condensed"
+					id="tabela-aprendidos">
+					<thead>
+						<tr>
+							<th class="text-center" width = "475">Assuntos Aprendidos</th>
+							<th class="text-center" width = "25">Excluir</th>
+
+						</tr>
+					</thead>
+				</table>
+			</div>
+		</div>
+		<div class="footer">
+			<p>&copy; ufcg 2014</p>
+		</div>
+
+	</div>
+
+
+</body>
+</html>
