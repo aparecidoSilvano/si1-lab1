@@ -28,17 +28,21 @@ function adiciona(conteudo) {
     novaCelula.className = "text-left";
     novaCelula.width = 450;
 
-    //Inserindo button Remover na segunda coluna da nova linha
+    
+  //Inserindo button  add na terceira coluna da nova linha
     novaCelula = novaLinha.insertCell(1);
-    novaCelula.innerHTML = "<button class='btn btn-xs btn-warning' onclick='remover(this);' >Remover</button>";
-    novaCelula.className = "text-center";
-    novaCelula.width = 25;
-
-    //Inserindo button  add na terceira coluna da nova linha
-    novaCelula = novaLinha.insertCell(2);
     novaCelula.innerHTML = "<button class='btn btn-xs btn-success'onclick='adicionaAprendido(this);'>Adicionar</button>";
     novaCelula.className = "text-center";
     novaCelula.width = 25;
+    
+    
+    //Inserindo button Remover na segunda coluna da nova linha
+    novaCelula = novaLinha.insertCell(2);
+    novaCelula.innerHTML = "<button class='btn btn-xs btn-danger' onclick='remover(this);' >Remover</button>";
+    novaCelula.className = "text-center";
+    novaCelula.width = 25;
+
+    
 }
 
 function remover(obj) {
@@ -66,7 +70,7 @@ function adicionaAprendido(obj) {
 
     //Inserindo button  excluir na segunda coluna da nova linha
     novaCelula = novaLinha.insertCell(1);
-    novaCelula.innerHTML = "<button class='btn btn-xs btn-danger' onclick='remover(this)'>Excluir</button>";
+    novaCelula.innerHTML = "<button class='btn btn-xs btn-danger' onclick='remover(this)'>Remover</button>";
     novaCelula.className = "text-center";
     novaCelula.width = 25;
 

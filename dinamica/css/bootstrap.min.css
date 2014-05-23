@@ -1981,6 +1981,7 @@ pre code {
 		width: 58.33333333%
 	}
 	.col-sm-6 {
+		text-align:center;
 		width: 50%
 	}
 	.col-sm-5 {
@@ -2444,7 +2445,8 @@ table {
 }
 
 th {
-	text-align: left
+	text-align: left;
+	color: ;
 }
 
 .table {
